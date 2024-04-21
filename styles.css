@@ -115,8 +115,8 @@
 
   .message-box{
     border-radius: 20px;
-    width: 800px;
-    height: 450px;
+    width: 850px;
+    height: 500px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -124,8 +124,8 @@
 }
   .message-box p{
     font-family: "Alumni Sans", sans-serif;
-    font-size: 34px;
-    line-height: 45px;  
+    font-size: 32px;
+    line-height: 42px;  
      margin: 10px;
   }
 
