@@ -81,7 +81,6 @@
 @media only screen and (max-width: 480px) {
   
 .image-container {
-  background-image: url(imagenes/imagen6.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,21 +90,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 1px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin: 5px;
-  /*Ajustaelmargensuperioreinferior*/
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px;
 }
 
   .message-box {
     width:100%;
     width: 300px;
     height: 220px;
-   
     border-end-end-radius: 10px;
   }
 
@@ -114,6 +104,33 @@
     line-height: 1.2;
     margin: 3px;
   }
+}
+
+@media only screen and (max-width: 796px){
+  .image-container {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: calc(100vh - 10px);
+    /*Ajustaelaltodelaimagenparadejarespacioarribayabajo*/position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+    .message-box {
+      width:100%;
+      width: 300px;
+      height: 220px;
+      border-end-end-radius: 10px;
+    }
+  
+    .message-box p {
+      font-size: 14px;
+      line-height: 1.2;
+      margin: 3px;
+    }
 }
 
 
