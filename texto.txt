@@ -1,0 +1,12 @@
+import { heart, love } from 'programming';
+
+const loveForProgramming = () => {
+    if (heart === code) {
+        return 'Always do with all your heart';
+    } else {
+        return 'Fight for your dreams and finish your story';
+    }
+};
+
+console.log(loveForProgramming());
+console.log('I love programming');

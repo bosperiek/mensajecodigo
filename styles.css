@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(3, 3, 28);
+  background-image: linear-gradient(to bottom, rgba(3, 3, 28, 1) 0%, rgba(3, 3, 28, 0) 100%);
+}
+
+.image-container {
+  background-image: url(imagenes/imagen6.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: calc(100% - 20px);
+  height: calc(100vh - 20px);
+  /*Ajustaelaltodelaimagenparadejarespacioarribayabajo*/position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+  /*Ajustaelmargensuperioreinferior*/
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+
+
+
+.message-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border: none;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 450px;
+  height: 300px;
+}
+
+
+.message-box p {
+ font-family: "Alumni Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  line-height: 10px;
+  margin: 5px;
+  }
+
+
+
+
+ span{
+  display: none;
+} 
+
+
+@media only screen and (max-width: 480px) {
+  .message-box {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+  }
+
+  .message-box p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 3px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .message-box {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+  }
+
+  .message-box p {
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 5px;
+  }
+}
