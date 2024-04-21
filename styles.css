@@ -103,5 +103,21 @@
 
 
 @media only screen and (min-width: 481px) and (max-width: 1024px){
+  imagen-container{
+    background-image: url(imagenes/imagen6.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc(100% - 20px);
+    height: calc(100vh - 20px);
+  }
 
+  .message-box{
+    width: 350px;
+    height: 200px;
+  }
+  .message-box p{
+    font-size: 14px;
+  }
 }
+
