@@ -57,14 +57,14 @@
   backdrop-filter: blur(3.5px);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 450px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
 }
 
 
 .message-box p {
  font-family: "Alumni Sans", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0;
   line-height: 10px;
   margin: 5px;
