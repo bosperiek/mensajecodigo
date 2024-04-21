@@ -115,15 +115,15 @@
 
   .message-box{
     border-radius: 20px;
-    width: 600px;
-    height: 350px;
+    width: 800px;
+    height: 600px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
   .message-box p{
-    font-size: 28px;
+    font-size: 32px;
   }
 
 }
