@@ -114,13 +114,13 @@
 
 
   .message-box{
-    border-radius: 20px;
+    border-radius: 22px;
     width: 780px;
     height: 500px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
 }
   .message-box p{
     font-family: "Alumni Sans", sans-serif;
