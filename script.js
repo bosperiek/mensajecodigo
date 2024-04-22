@@ -46,7 +46,7 @@ function showNextElement() {
     setTimeout(() => {
       span.style.display = 'inline';
     }, delay);
-    delay += 590; // Ajusta el valor del retraso aquí (en milisegundos)
+    delay += 140; // Ajusta el valor del retraso aquí (en milisegundos)
   });
 
   delay += 0; // Ajusta el tiempo para el siguiente párrafo
